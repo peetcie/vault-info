@@ -94,7 +94,7 @@
 
     function earned(address account) public view returns (uint256)
 
-        - Returns the amount earned by a speciffic account
+        - Returns the amount earned by a specific account
 
     ---------------------------------------------------------------------------------------------
 
@@ -112,7 +112,7 @@
 
     function withdraw(uint256 _amount) ;
 
-        - Withdraw a speciffic ammount. If _amount is 0, the full deposit is withdrawn
+        - Withdraw a specific ammount. If _amount is 0, the full deposit is withdrawn
 
     ---------------------------------------------------------------------------------------------
 
@@ -144,7 +144,7 @@
         ];
     }
 
-        - Returns vault speciffic info
+        - Returns vault specific info
 
     ---------------------------------------------------------------------------------------------
 
@@ -152,5 +152,5 @@
         return [reward, balance];
     }
 
-        - Returns user user speciffic info
+        - Returns user specific info
 ```
